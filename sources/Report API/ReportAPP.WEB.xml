@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReportAPP.WEB</name>
+    </assembly>
+    <members>
+        <member name="T:ReportAPP.Controllers.EmployeeController">
+            <summary>
+            Контроллер для действий c Employee
+            </summary>
+        </member>
+        <member name="M:ReportAPP.Controllers.EmployeeController.Create(ReportAPP.BLL.DTO.EmployeeDTO)">
+            <summary>
+            Метод для создания Employee
+            </summary>
+            <param name="empDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReportAPP.Controllers.EmployeeController.Update(ReportAPP.BLL.DTO.EmployeeDTO)">
+            <summary>
+            Метод для редактирования Employee
+            </summary>
+            <param name="empDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReportAPP.Controllers.EmployeeController.All">
+            <summary>
+            Метод для получения всех Employee
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ReportAPP.Controllers.EmployeeController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Метод для удаления Employee
+            </summary>
+            <param name="id">id удаляемого Employee</param>
+            <returns></returns>
+        </member>
+        <member name="M:ReportAPP.Controllers.EmployeeController.Get(System.Nullable{System.Int32})">
+            <summary>
+            Метод для получения Employee
+            </summary>
+            <param name="id">id нужного Employee</param>
+            <returns></returns>
+        </member>
+        <member name="T:ReportAPP.Controllers.ReportController">
+            <summary>
+            Контроллер для действий с отчетами
+            </summary>
+        </member>
+        <member name="M:ReportAPP.Controllers.ReportController.Create(ReportAPP.BLL.DTO.ReportDTO)">
+            <summary>
+            Метод для создания отчета
+            </summary>
+            <param name="report"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReportAPP.Controllers.ReportController.Update(ReportAPP.BLL.DTO.ReportDTO)">
+            <summary>
+            Метод для редактирования отчета
+            </summary>
+            <param name="report"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReportAPP.Controllers.ReportController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Метод для удаления отчета
+            </summary>
+            <param name="id">id удаляемого отчета</param>
+            <returns></returns>
+        </member>
+        <member name="M:ReportAPP.Controllers.ReportController.All">
+            <summary>
+            Метод для получения всех отчетов
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ReportAPP.Controllers.ReportController.Get(System.Nullable{System.Int32})">
+            <summary>
+            Метод для получения отчета
+            </summary>
+            <param name="id">id нужного отчета</param>
+            <returns></returns>
+        </member>
+        <member name="M:ReportAPP.Controllers.ReportController.EmployeeReports(System.Nullable{System.Int32},ReportAPP.BLL.DTO.DateDTO)">
+            <summary>
+            Метод для получения отчета Employee за определенный отрезок времени
+            </summary>
+            <param name="id"></param>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

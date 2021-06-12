@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReportAPP.BLL</name>
+    </assembly>
+    <members>
+        <member name="T:ReportAPP.BLL.DTO.EmployeeDTO">
+            <summary>
+            модель описывающая работника
+            </summary>
+        </member>
+        <member name="P:ReportAPP.BLL.DTO.EmployeeDTO.LastName">
+            <summary>
+            Фамилия работника
+            </summary>
+        </member>
+        <member name="P:ReportAPP.BLL.DTO.EmployeeDTO.FirstName">
+            <summary>
+            Имя работника
+            </summary>
+        </member>
+        <member name="P:ReportAPP.BLL.DTO.EmployeeDTO.Patronymic">
+            <summary>
+            Отчество работника
+            </summary>
+        </member>
+        <member name="P:ReportAPP.BLL.DTO.EmployeeDTO.Email">
+            <summary>
+            Email адрес работника
+            </summary>
+        </member>
+        <member name="P:ReportAPP.BLL.DTO.ReportDTO.ReportId">
+            <summary>
+            ID отчета
+            </summary>
+        </member>
+        <member name="P:ReportAPP.BLL.DTO.ReportDTO.Note">
+            <summary>
+            Заметка
+            </summary>
+        </member>
+        <member name="P:ReportAPP.BLL.DTO.ReportDTO.Hours">
+            <summary>
+            Кол-во отработанных часов
+            </summary>
+        </member>
+        <member name="P:ReportAPP.BLL.DTO.ReportDTO.Date">
+            <summary>
+            Дата заполнения отчета
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -89,9 +89,6 @@ namespace ReportAPP.BLL.Services
 
                 return result;
             }
-
-
-
         }
 
         public QueryResult<ReportDTO> GetReport(int id)
